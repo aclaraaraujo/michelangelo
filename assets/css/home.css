@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
 
-  gap: 4.5rem;
+  gap: 12rem;
 }
 
 .profile {
@@ -33,7 +33,6 @@
   align-items: flex-start;
 
   gap: 2rem;
-  max-width: 34rem;
 }
 
 .card-header {

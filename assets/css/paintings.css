@@ -1,7 +1,6 @@
 .painting {
   position: relative;
   height: 35rem;
-  width: 70rem;
   display: flex;
   align-items: center;
 }
