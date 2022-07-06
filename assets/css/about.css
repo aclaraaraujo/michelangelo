@@ -1,45 +1,98 @@
-.about {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  gap: 4.5rem;
+.about .topic {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
-.nav-tab {
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tabs .tab-header {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-
-  gap: 1rem;
-
-  width: 31rem;
+  width: 20%;
+  margin-right: 50px;
+  position: relative;
 }
 
-.nav-tab a {
-  text-decoration: none;
-  font-size: 1rem;
-  line-height: 1.81rem;
+.tabs .tab-header label {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 60px;
+  cursor: pointer;
 
-  color: var(--red-800);
+  transition: all 0.5s ease;
+  color: #333;
 }
 
-.nav-tab a:hover {
-  color: var(--red-800);
-  font-weight: bold;
+#life:checked ~ .tab-header label.life,
+#style:checked ~ .tab-header label.style,
+#legacy:checked ~ .tab-header label.legacy {
+  color: #bb2215;
+  font-weight: 700;
 }
 
-.nav-tab .active {
-  color: var(--red-400);
-  font-weight: 600;
+.tabs .tab-header label:hover {
+  color: #bb2215;
+  font-weight: 700;
+}
+
+#life:checked ~ .tab-header .slider {
+  top: 0;
+}
+
+#style:checked ~ .tab-header .slider {
+  top: 60px;
+}
+
+#legacy:checked ~ .tab-header .slider {
+  top: 120px;
+}
+
+.tabs .tab-body {
+  width: 80%;
+  height: 100%;
+}
+.tabs .text {
+  display: none;
 }
 
 .card-about {
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
-  justify-content: center;
+  padding: 3rem 0;
+}
 
-  max-width: 53rem;
+.card-header {
+  margin-bottom: 2rem;
+}
+
+.tabs .text .title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.tabs .tab-body .life {
+  display: block;
+}
+
+#life:checked ~ .tab-body .life,
+#style:checked ~ .tab-body .style,
+#legacy:checked ~ .tab-body .legacy {
+  display: block;
+}
+
+#style:checked ~ .tab-body .life,
+#legacy:checked ~ .tab-body .life {
+  display: none;
+}
+
+.tabs input {
+  display: none;
+}
+
+.card-body p {
+  padding: 1rem 0;
 }

@@ -30,35 +30,141 @@
       </nav>
     </header>
     <main>
-      <div class="about">
-        <div class="nav-tab">
-          <a href="#">Vida</a>
-          <a href="#" class="active">Estilo e trabalho</a>
-          <a href="#">Legado</a>
+      <section class="about">
+        <div class="tabs">
+          <input type="radio" name="slider" checked id="life" />
+          <input type="radio" name="slider" id="style" />
+          <input type="radio" name="slider" id="legacy" />
+          <article class="tab-header">
+            <label for="life" class="life">
+              <span class="title">Vida</span>
+            </label>
+            <label for="style" class="style">
+              <span class="title">Estilo e trabalho</span>
+            </label>
+            <label for="legacy" class="legacy">
+              <span class="title">Legado</span>
+            </label>
+            <div class="slider"></div>
+          </article>
+          <article class="tab-body">
+            <div class="life text">
+              <div class="card-about">
+                <div class="card-header">Lodovico Buonarroti Simoni</div>
+                <div class="card-body">
+                  <p>
+                    Pintor, escultor, arquiteto e poeta. Esse foi Michelangelo
+                    di Lodovico Buonarroti, ou simplesmente Michelangelo, um dos
+                    artistas mais brilhantes do Renascimento Italiano e um nome
+                    que ficou marcado na História. Nasceu em seis de março de
+                    1475, na região de Caprese, na Toscana italiana. E morreu no
+                    dia 18 de fevereiro de 1564, na cidade de Roma, aos 89 anos.
+                  </p>
+                  <p>
+                    Quase cursou uma escola de Gramática em Florença, muito pela
+                    vontade do pai, que o matriculou aos sete anos. Entretanto,
+                    quando Michelangelo Buonarroti tinha 10 anos de idade, seu
+                    pai percebeu e admitiu o talento de seu filho para as artes
+                    visuais do desenho e da pintura.
+                  </p>
+                  <p>
+                    Ainda muito jovem, Michelangelo matriculou-se na oficina de
+                    Domenico Ghilandaio, um dos maiores mestres de Florença. Lá,
+                    respirou arte e teve a melhor base possível para a produção
+                    de desenhos, pinturas, afrescos e esculturas.
+                  </p>
+                  <!-- <p>
+                    Quase cursou uma escola de Gramática em Florença, muito pela
+                    vontade do pai, que o matriculou aos sete anos. Entretanto,
+                    quando Michelangelo tinha 10 anos de idade, seu pai percebeu
+                    e admitiu o talento de seu filho para as artes visuais do
+                    desenho e da pintura.
+                  </p> -->
+                  <!-- <p>
+                    Nasceu em Caprese, na província de Arezzo, nas proximidades
+                    de Florença, Itália, no dia 6 de março de 1475. Seus pais,
+                    Lodovico Buonarroti e Francesca eram descendentes de família
+                    de ascendência aristocrática.
+                  </p>
+                  <p>
+                    Na escola, Michelangelo se interessava apenas em desenhar,
+                    contrariando seus pais, que não queriam um filho artista.
+                    Com 13 anos acabou conseguindo ingressar na oficina dos
+                    irmãos Domenico e Davi Ghirlandaio, em Florença.
+                  </p>
+                  <p>
+                    Porém, desgostoso com a pintura, em 1489, graças ao mecenato
+                    de Lourenço o Magnífico, ele passou a estudar escultura com
+                    Bertoldo di Giovanni na Academia do Jardim dos Medicis, onde
+                    a família conservava valiosa coleção.
+                  </p> -->
+                </div>
+              </div>
+            </div>
+            <div class="style text">
+              <div class="card-about">
+                <div class="card-header">
+                  Primeiros trabalhos de Michelangelo
+                </div>
+                <div class="card-body">
+                  <p>
+                    Os talentos de Michelangelo se tornaram evidentes quando ele
+                    trabalhou para Ghirlandaio. Assim, dentro de um ano, ele foi
+                    enviado para a poderosa família Medici para continuar seu
+                    treinamento com o escultor Bertoldo di Geovanni. Nos jardins
+                    da família Medici que Michelangelo esculpiu suas primeiras
+                    esculturas: Baco (1496–1497) e Cupido Adormecido (1496).
+                  </p>
+                  <p>
+                    Em seguida, Michelangelo começou a se concentrar em seu
+                    trabalho, criando para si uma renomada carreira como pintor
+                    e escultor no Renascimento italiano. Dois de seus trabalhos
+                    iniciais mais significativos que o ajudaram a se tornar um
+                    artista célebre foram as estátuas de “Pietà” (1499), que
+                    esculpiu com apenas 23 anos e “David” (1501 – 1504), ambas
+                    reconhecidas por sua técnica artística
+                  </p>
+                  <p>
+                    Em 1505, o escultor italiano foi chamado pelo papa Júlio II
+                    para projetar seu túmulo, um projeto no qual ele trabalhou
+                    por quatro décadas.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="legacy text">
+              <div class="card-about">
+                <div class="card-header">O legado que ultrapassa séculos</div>
+                <div class="card-body">
+                  <p>
+                    Dedicou anos à elaboração do afresco da Capela Sistina, uma
+                    de suas obras mais famosas e uma das pinturas mais
+                    reconhecidas mundialmente. Outra das obras de Michelangelo é
+                    sua escultura de Davi, esculpida em um único bloco de
+                    mármore.
+                  </p>
+                  <p>
+                    A abóbada da Capela Sistina talvez seja a obra mais famosa
+                    de Michelangelo. Sem dúvida, é uma das mais grandiosas. No
+                    ano de 1508, o então papa Júlio II encarregou o artista de
+                    realizar toda a “decoração” da abóbada da Capela, localizada
+                    na Catedral de São Pedro, na cidade de Roma, onde hoje está
+                    o Vaticano.
+                  </p>
+                  <p>
+                    Apesar de seus protestos, nos quais dizia que não era pintor
+                    e sim um escultor, Michelangelo acabou realizando a tarefa.
+                    Em um exaustivo e longo trabalho, em quatro anos, durante os
+                    quais em boa parte não teve nenhuma ajuda, o artista pintou
+                    300 imagens em uma abóbada de 40 metros de largura por 13
+                    metros de altura.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
         </div>
-        <div class="card-about">
-          <div class="card-header">Lodovico Buonarroti Simoni</div>
-          <div class="card-body">
-            <p>
-              Pintor, escultor, arquiteto e poeta. Esse foi Michelangelo di
-              Lodovico Buonarroti, ou simplesmente Michelangelo, um dos artistas
-              mais brilhantes do Renascimento Italiano e um nome que ficou
-              marcado na História. Nasceu em seis de março de 1475, na região de
-              Caprese, na Toscana italiana.
-            </p>
-          </div>
-          <div class="card-header">Lodovico Buonarroti Simoni</div>
-          <div class="card-body">
-            <p>
-              Quase cursou uma escola de Gramática em Florença, muito pela
-              vontade do pai, que o matriculou aos sete anos. Entretanto, quando
-              Michelangelo tinha 10 anos de idade, seu pai percebeu e admitiu o
-              talento de seu filho para as artes visuais do desenho e da
-              pintura.
-            </p>
-          </div>
-        </div>
-      </div>
+      </section>
     </main>
     <script src="./main.js"></script>
   </body>
