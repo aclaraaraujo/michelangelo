@@ -1,0 +1,45 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 4.5rem;
+}
+
+.nav-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  gap: 1rem;
+
+  width: 31rem;
+}
+
+.nav-tab a {
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.81rem;
+
+  color: var(--red-800);
+}
+
+.nav-tab a:hover {
+  color: var(--red-800);
+  font-weight: bold;
+}
+
+.nav-tab .active {
+  color: var(--red-400);
+  font-weight: 600;
+}
+
+.card-about {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  justify-content: center;
+
+  max-width: 53rem;
+}

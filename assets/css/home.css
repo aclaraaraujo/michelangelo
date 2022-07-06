@@ -1,0 +1,84 @@
+.presentation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 4.5rem;
+}
+
+.profile {
+  position: relative;
+  width: 31rem;
+}
+
+.bg {
+  position: relative;
+  width: 20rem;
+  height: 32rem;
+  background: var(--red-800);
+}
+
+.profile img {
+  position: absolute;
+  top: 4rem;
+  left: 3.81rem;
+
+  width: 20rem;
+  height: 24rem;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 2rem;
+  max-width: 34rem;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.5rem;
+
+  color: var(--red-400);
+}
+
+.card-body {
+  font-size: 1rem;
+  line-height: 2.5rem;
+
+  color: var(--red-800);
+  padding-left: 1.5rem;
+
+  border-left: 0.25rem solid var(--red-400);
+  border-radius: 0.125rem;
+}
+
+.btn-more {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  gap: 2rem;
+
+  border: none;
+  background: none;
+
+  margin-top: 1.5rem;
+}
+
+.btn-more a {
+  text-decoration: none;
+  color: var(--red-400);
+
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn-more svg {
+  font-size: 1.5rem;
+
+  color: var(--red-400);
+}
