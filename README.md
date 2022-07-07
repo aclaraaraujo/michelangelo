@@ -5,4 +5,4 @@
 
 <p>🔗 https://michelangelo.vercel.app/</p>
 
-<img src="michelangelo/mockup.png"/>
+<img src="https://github.com/aclaraaraujo/michelangelo/blob/master/mockup.png"/>
